@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\0androidTK\Sixth\Order_Print\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f6784f9f8130fac074577e7dedce8c41cd1d847b">
+        <dex dex="D:\0androidTK\Sixth\Order_Print\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_372534e95939fa8ca7cffcdbaea0f8f4256f3e4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\0androidTK\Sixth\Order_Print\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="D:\0androidTK\Sixth\Order_Print\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9e0f97c1b90d1403d960d00d0f304af762f7f832\classes.dex" />
+    </item>
+
+</items>

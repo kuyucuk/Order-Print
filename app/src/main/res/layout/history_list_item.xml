@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_overview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="de.httptandooripalace.restaurantorderprinter.OverviewActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_titles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:text="@string/id"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:text="@string/date"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/waiter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:text="@string/waiter"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:text="@string/table"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:text="@string/price"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</AbsoluteLayout>
